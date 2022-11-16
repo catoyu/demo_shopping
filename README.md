@@ -1,4 +1,4 @@
-##Reto 02: Shopping_app
+## Reto 02: Shopping_app
 
 Proyecto desarrollado por: Alexander Anillo Trocha, Daniel Esteban Agudelo Duque, Heyder Barbosa Orrego, Lina Rocio Cardenas Fernandez y Yuly Andrea Castro Torres.
 
@@ -6,7 +6,7 @@ Equipo 3 - NRC 2289
 
 Misión MinTic 2022
 
-##Demo:
+## Demo:
 
 ![Shopping-App](https://user-images.githubusercontent.com/110750570/202231504-d1d0e6c3-9db7-4fcd-ad4a-21977ce60325.gif)
 
