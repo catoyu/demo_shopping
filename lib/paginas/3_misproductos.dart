@@ -97,7 +97,7 @@ class _productosState extends State<misproductos> {
                                   fontSize: 16, fontWeight: FontWeight.w400),
                             ),
                             radius: BorderRadius.circular(5.0),
-                            color: Colors.indigo,
+                            color: Colors.amber[700]!,
                             onPressed: () {
                               control.limpiar();
                               Navigator.pop(context);
@@ -109,7 +109,7 @@ class _productosState extends State<misproductos> {
                 label: Text(
                   "Realizar compra",
                   style: GoogleFonts.openSans(
-                      fontSize: 12, fontWeight: FontWeight.w500),
+                      fontSize: 14, fontWeight: FontWeight.w500),
                 )),
             SizedBox(
               height: 20,

@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Shopping App',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.deepOrange,
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.deepOrange,
       ),
       home: const MyHomePage(title: 'Motorbike Shop'),
       debugShowCheckedModeBanner: false,
