@@ -40,7 +40,7 @@ class _comprarState extends State<comprar> {
                         width: 100,
                         height: 30,
                         decoration: BoxDecoration(
-                            color: Colors.indigo[600],
+                            color: Colors.amber[700]!,
                             borderRadius: BorderRadius.all(
                               Radius.circular(50.0),
                             )),
@@ -62,8 +62,11 @@ class _comprarState extends State<comprar> {
                                   icon: Icon(
                                     Icons.add_rounded,
                                     size: 20.0,
+                                    color: Colors.orange[900]!,
                                   )),
-                              VerticalDivider(),
+                              VerticalDivider(
+                                color: Colors.orange[900]!,
+                              ),
                               IconButton(
                                   onPressed: () {
                                     int nuevaCantidad =
@@ -74,7 +77,11 @@ class _comprarState extends State<comprar> {
                                     control.cambiarCant(index, nuevaCantidad);
                                     control.pro.refresh();
                                   },
-                                  icon: Icon(Icons.remove_rounded, size: 20.0)),
+                                  icon: Icon(
+                                    Icons.remove_rounded,
+                                    size: 20.0,
+                                    color: Colors.orange[900]!,
+                                  )),
                             ]),
                       ),
                     ],
